@@ -33,4 +33,11 @@ public class Circle {
         double longestLineWithinIn = radius * 2;
         return longestLineWithinIn;
     }
+
+    /**
+     * @return the radius
+     */
+    public double getRadius(){
+        return radius;
+    }
 }
