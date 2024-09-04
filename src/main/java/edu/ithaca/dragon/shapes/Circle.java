@@ -14,20 +14,30 @@ public class Circle {
      * @return the area of this circle
      */
     public double calcArea(){
-        throw new RuntimeException("Not implemented yet");
+        double CircArea = 3.1415 * radius * radius;
+        return CircArea;
     }
 
     /**
      * @post doubles the size of this circle
      */
     public void doubleSize(){
-        throw new RuntimeException("Not implemented yet");
+        double doubleSizeIn = radius * 2;
+        radius = doubleSizeIn;
     }
 
     /**
      * @return the longest straight line that can be drawn within this circle
      */
     public double longestLineWithin(){
-        throw new RuntimeException("Not implemented yet");
+        double longestLineWithinIn = radius * 2;
+        return longestLineWithinIn;
+    }
+
+    /**
+     * @return the radius
+     */
+    public double getRadius(){
+        return radius;
     }
 }
